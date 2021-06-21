@@ -1,10 +1,10 @@
 {
   "name": "fastail",
   "version": "1.0.0",
-  "description": "",
+  "description": "Fastail ready-made tailwindcss folder with JIT feature enable.",
   "main": "index.js",
   "scripts": {
-    "dev": "npx tailwindcss@latest -i ./src/tailwind.css -o ./public/style.css"
+    "dev": "npx tailwindcss@latest -i ./src/tailwind.css -o ./public/style.css -w"
   },
   "keywords": [],
   "author": "",
